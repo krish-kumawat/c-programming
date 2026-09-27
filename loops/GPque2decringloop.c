@@ -1,5 +1,5 @@
 // display the AP -100,97,94..upto all terms which are positive
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
     int n;
@@ -12,5 +12,21 @@ int main()
             printf("%d", i);
         }
     }
+    return 0;
+}
+    i solve this que with out maths...*/
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("enter a number :");
+    scanf("%d", &n);
+    int a = 100;
+    for (int i = 1; a > 0; i++)
+    {
+        printf("%d", a);
+        a = a - 3;
+    }
+
     return 0;
 }
